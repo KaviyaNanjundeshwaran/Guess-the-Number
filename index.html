@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Guess the Number</h1>
+            <p>I'm thinking of a number between 1 and 100</p>
+        </header>
+        
+        <div class="game-area">
+            <div class="input-section">
+                <input type="number" id="guess-input" min="1" max="100" placeholder="Enter your guess">
+                <button id="submit-btn">Submit Guess</button>
+            </div>
+            
+            <div class="feedback">
+                <div id="message">Make your first guess!</div>
+                <div class="attempts">Attempts: <span id="attempt-count">0</span></div>
+            </div>
+            
+            <div class="previous-guesses">
+                <h3>Your Guesses:</h3>
+                <div id="guess-list"></div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="reset-btn">New Game</button>
+        </div>
+    </div>
+    
+    <div class="win-modal" id="win-modal">
+        <div class="modal-content">
+            <h2>Congratulations!</h2>
+            <p>You guessed the number in <span id="final-attempts">0</span> attempts!</p>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
