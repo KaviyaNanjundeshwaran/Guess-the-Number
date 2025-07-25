@@ -89,11 +89,3 @@ git commit -m "Added full README with setup and usage"
 git push origin main
 ````
 
----
-
-Let me know if you want to:
-
-* Add **screenshots** or **GIFs** to the README 📸
-* Or deploy the project live via GitHub Pages 🌐
-
-One more phase down — you’re killin’ it! 💪
