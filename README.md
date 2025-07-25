@@ -1,5 +1,3 @@
-Let’s go Candy 🎯
-Here’s a clean and professional-looking `README.md` just for your **Guess the Number** project — with everything your Phase 6 checklist asks for ✅
 
 ---
 
